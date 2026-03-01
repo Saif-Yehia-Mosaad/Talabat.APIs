@@ -1,0 +1,146 @@
+[
+  {
+    "Name": "Double Caramel Frappuccino",
+    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+    "Price": 200,
+    "PictureUrl": "images/products/sb-ang1.png",
+    "ProductCategoryId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "White Chocolate Mocha Frappuccino",
+    "Description": "Nunc viverra imperdiet enim. Fusce est.",
+    "Price": 150,
+    "PictureUrl": "images/products/sb-ang2.png",
+    "ProductCategoryId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Iced Cafe Latte",
+    "Description": "Suspendisse dui purus, scelerisque at vulputate vitae.",
+    "Price": 180,
+    "PictureUrl": "images/products/sb-core1.png",
+    "ProductCategoryId": 2,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "White Chocolate Mocha",
+    "Description": "Pellentesque habitant morbi tristique senectus.",
+    "Price": 300,
+    "PictureUrl": "images/products/sb-core2.png",
+    "ProductCategoryId": 3,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Iced Caramel Macchiato",
+    "Description": "Lorem ipsum dolor sit amet.",
+    "Price": 250,
+    "PictureUrl": "images/products/sb-react1.png",
+    "ProductCategoryId": 4,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Hot Caramel Macchiato",
+    "Description": "Aenean nec lorem.",
+    "Price": 120,
+    "PictureUrl": "images/products/sb-ts1.png",
+    "ProductCategoryId": 4,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "Iced Matcha Latte",
+    "Description": "Fusce posuere magna sed pulvinar.",
+    "Price": 100,
+    "PictureUrl": "images/products/hat-core1.png",
+    "ProductCategoryId": 5,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Honey Cake",
+    "Description": "Suspendisse dui purus.",
+    "Price": 80,
+    "PictureUrl": "images/products/hat-react1.png",
+    "ProductCategoryId": 6,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Blueberry Cheesecake",
+    "Description": "Fusce posuere magna sed pulvinar.",
+    "Price": 150,
+    "PictureUrl": "images/products/hat-react2.png",
+    "ProductCategoryId": 6,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Glazed Donuts",
+    "Description": "Nunc viverra imperdiet enim.",
+    "Price": 180,
+    "PictureUrl": "images/products/glove-code1.png",
+    "ProductCategoryId": 7,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Greek Salad",
+    "Description": "Pellentesque habitant morbi tristique.",
+    "Price": 150,
+    "PictureUrl": "images/products/glove-code2.png",
+    "ProductCategoryId": 8,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Iced Black Tea Lemonade",
+    "Description": "Lorem ipsum dolor sit amet.",
+    "Price": 160,
+    "PictureUrl": "images/products/glove-react1.png",
+    "ProductCategoryId": 4,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Iced London Fog Tea Latte",
+    "Description": "Mauris et orci.",
+    "Price": 140,
+    "PictureUrl": "images/products/glove-react2.png",
+    "ProductCategoryId": 4,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Turkey Bacon, Cheddar & Egg White Sandwich",
+    "Description": "Suspendisse dui purus.",
+    "Price": 250,
+    "PictureUrl": "images/products/boot-redis1.png",
+    "ProductCategoryId": 3,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Core Red Boots",
+    "Description": "Lorem ipsum dolor sit amet.",
+    "Price": 189.99,
+    "PictureUrl": "images/products/boot-core2.png",
+    "ProductCategoryId": 3,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Double-Smoked Bacon Sandwich",
+    "Description": "Pellentesque habitant morbi tristique.",
+    "Price": 199.99,
+    "PictureUrl": "images/products/boot-core1.png",
+    "ProductCategoryId": 3,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Iced Chai Tea Latte",
+    "Description": "Aenean nec lorem.",
+    "Price": 150,
+    "PictureUrl": "images/products/boot-ang2.png",
+    "ProductCategoryId": 3,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Dragon Drink Starbucks Refreshers",
+    "Description": "Suspendisse dui purus.",
+    "Price": 180,
+    "PictureUrl": "images/products/boot-ang1.png",
+    "ProductCategoryId": 3,
+    "ProductBrandId": 1
+  }
+]

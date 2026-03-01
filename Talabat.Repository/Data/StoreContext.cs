@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.SqlServer;
 using Talabat.Core.Entities;
 
-namespace TalabatRepository.Data
+namespace Talabat.Repository.Data
 {
     public class StoreContext : DbContext
     {

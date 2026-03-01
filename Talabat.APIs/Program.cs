@@ -3,7 +3,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Threading.Tasks;
-using TalabatRepository.Data;
+using Talabat.Core.Entities;
+using Talabat.Core.Reposetories.Contract;
+using Talabat.Repository;
+using Talabat.Repository.Data;
 
 namespace Talabat.APIs
 {
@@ -24,6 +27,8 @@ namespace Talabat.APIs
             webApplicationBuilder.Services.AddDbContext<StoreContext>(options =>
             options.UseSqlServer(webApplicationBuilder.Configuration.GetConnectionString("DefaultConnection")));
 
+
+            webApplicationBuilder.Services.AddScoped(typeof(IGenericRepository<>),typeof(GenericRepository<>));
             #endregion
 
             var app = webApplicationBuilder.Build();
@@ -38,6 +43,7 @@ namespace Talabat.APIs
             try
             {
                 await context.Database.MigrateAsync(); //Update-Database
+                await StoreContextSeed.SeedAsync(context);
             }
             catch (Exception ex)
             {
